@@ -1,4 +1,5 @@
-;; peepopen.el --- Graphical file chooser for Emacs on Mac OS X.
+;; eproject-peepopen.el --- Graphical file chooser for Emacs on Mac OS X.
+;; Modified from peepopen.el at https://github.com/topfunky/PeepOpen-EditorSupport/blob/master/peepopen.el
 
 ;; Copyright (C) 2010 Topfunky Corporation <http://peepcode.com>
 
@@ -11,7 +12,7 @@
 ;;
 ;; Enhancements: Josh Peek http://joshpeek.com/
 ;; 
-;; Further Modified 2011-05-08: Matthew Barnett (mbarnett@duskwerks.com)
+;; Further Modified & Renamed, 2011-05-08: Matthew Barnett (matt@wtmworldwide.com)
 
 ;; This file is NOT part of GNU Emacs.
 
@@ -24,7 +25,7 @@
 ;; textmate mode with a lighter weight dependency on jrockway's eproject
 ;; needed only for identifying the root directory of a project
 ;;
-;; Calls the external PeepOpen.app when you hit Meta-t (or equivalent).
+;; Calls the external PeepOpen.app when you hit Meta-t (or equivalent) in eproject-mode.
 
 ;;    M-t - Go to File
 
